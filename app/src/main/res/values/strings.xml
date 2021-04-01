@@ -1,0 +1,639 @@
+<resources>
+    <string name="app_name">MyCookBook</string>
+    <string-array name="food">
+
+    </string-array>
+
+
+    <string-array name="FastFood">
+
+        <item>Burger</item>
+        <item>Moglai</item>
+        <item>Bread Pizza</item>
+        <item>Pasta</item>
+        <item>Chowmein</item>
+        <item>Hot fries</item>
+    </string-array>
+    <string-array name="RiceItem">
+        <item>Plain pulaw</item>
+        <item>Fried Rice</item>
+        <item>Biriany</item>
+    </string-array>
+
+    <string-array name="CurryItem">
+        <item>Chicken Curry</item>
+        <item>Chinese Vegatable</item>
+        <item>Prawn curry</item>
+    </string-array>
+    <string-array name="DesertsItem">
+        <item>Pudding</item>
+        <item>Faluda</item>
+    </string-array>
+    <string-array name="appetizer">
+        <item>Strawbery shake</item>
+        <item>Chocolate shake</item>
+
+    </string-array>
+
+
+
+    <string name="Burger">
+        INGREEDIENTS:\n
+        1 small onion\n
+    quality beef mince  \n
+    1 egg  \n
+    1 tbsp vegetable oil \n
+    4 burger buns \n
+    All or any of the following to serve: sliced tomato, beetroot, horseradish sauce, mayonnaise, ketchup, handful iceberg lettuce, rocket, watercress  \n
+    \n
+
+
+    Method  \n
+    STEP 1 \n
+    Tip 500g beef mince into a bowl with 1 small diced onion and 1 egg, then mix. \n\n
+
+    STEP 2 \n
+    Divide the mixture into four. Lightly wet your hands. Carefully roll the mixture into balls, each about the size of a tennis ball. \n\n
+
+    STEP 3 \n
+    Set in the palm of your hand and gently squeeze down to flatten into patties about 3cm thick. Make sure all the burgers are the same thickness so that they will cook evenly. \n\n
+
+    STEP 4 \n
+    Put on a plate, cover with cling film and leave in the fridge to firm up for at least 30 mins. \n\n
+
+    STEP 5 \n
+    Heat the barbecue to medium hot (there will be white ash over the red hot coals – about 40 mins after lighting). Lightly brush one side of each burger with vegetable oil. \n\n
+
+    STEP 6 \n
+    Place the burgers, oil-side down, on the barbecue. Cook for 5 mins until the meat is lightly charred. Don’t move them around or they may stick. \n\n
+
+    STEP 7 \n
+    Oil the other side, then turn over using tongs. Don’t press down on the meat, as that will squeeze out the juices. \n\n
+
+    STEP 8 \n
+    Cook for 5 mins more for medium. If you like your burgers pink in the middle, cook 1 min less each side. For well done, cook 1 min more. \n\n
+
+    STEP 9 \n
+    Take the burgers off the barbecue. Leave to rest on a plate so that all the juices can settle inside. \n\n
+
+    STEP 10 \n
+    Slice four burger buns in half. Place, cut-side down, on the barbecue rack and toast for 1 min until they are lightly charred. Place a burger inside each bun, then top with your choice of accompaniment.\n\n
+
+        # EGG BURGER Recipe  \n\n
+•	4 egg \n
+•	1 chopped carrot \n
+•	1 peeled cucumber \n
+•	1/4 teaspoon powdered black pepper \n
+•	2 pinch powdered salt \n
+•	4 handful halved burger buns \n
+•	2 mashed potato \n
+•	2 finely chopped onion \n
+•	1 sliced thick tomato \n
+•	2 teaspoon melted butter \n
+•	4 tablespoon sunflower oil \n\n
+How to make Egg Burger \n
+•	Step 1 \n
+Beat the eggs with salt and pepper powder. Keep aside. \n\n
+•	Step 2 \n
+Heat little oil in a pan. Saute the finely chopped onions. \n\n
+•	Step 3 \n
+Add to the eggs mixture along with the mashed potatoes. \n\n
+•	Step 4 \n
+Heat a tawa over medium flame. \n\n
+•	Step 5 \n
+Add a little oil and make omelettes of the mixture. \n\n
+•	Step 6 \n
+Apply butter on the buns and toast the insides for 30 seconds. \n\n
+•	Step 7 \n
+Place an omelette on the bottom half of the bun. \n\n
+•	Step 8 \n
+Place a slice of cucumber, tomato and onion ring. \n\n
+•	Step 9 \n
+Cover with the top half of the bun. \n\n
+•	Step 10 \n
+Serve at once with ketchup.
+</string>
+
+    <string name="Pasta">
+    INGREDIENS:\n
+    1/2 cup extra virgin olive oil \n
+    10 garlic cloves , sliced \n
+    1 tbsp red chilli flakes \n
+    1/4 cup chopped parsley \n
+    1/4 cup extra virgin olive oil \n
+    2 garlic cloves , crushed \n
+    21 oz / 600g crushed tinned tomatoes \n
+    2 tbsp chilli flakes \n
+    1/4 cup chopped parsley \n\n
+
+
+    Cook 1lb/500g of dried spaghetti (or any other long dried pasta) in a large pot of salted boiling water per packet MINUS 1 minute. \n
+    Meanwhile, prepare one of the sauces below. \n
+    When pasta is ready, scoop out 1 cup of pasta cooking water, and drain pasta. \n
+    Add pasta into chosen sauce with 3/4 cup pasta cooking water. Toss pasta until sauce thickens and sticks to pasta (called "emulsifying" the sauce), 1 - 2 minutes. Use more pasta water if needed to loosen sauce. \n
+    Season with salt and pepper to taste. Finish pasta per chosen recipe. \n\n\n
+        #RECIPE 2 \n
+INGREDIENTS \n
+
+1/2 lb. Italian sausage (hot, mild or sweet) \n
+2	cloves garlic \n
+ 2 Tbsp tomato paste \n
+•	1 28oz. can crushed tomatoes \n
+•	1 tsp Italian seasoning blend \n
+•	1/2 cup water \n
+•	1/2 lb. pasta* \n
+•	1/3 cup heavy cream \n
+•	4 oz. fresh spinach \n\n
+INSTRUCTIONS \n
+
+1.	Add the Italian sausage to a deep skillet or pot and cook over medium heat, breaking it up into pieces as it cooks. Mince two cloves of garlic, add it to the browned sausage, and sauté for 1 minute more. \n\n
+2.	Next, add the tomato paste, crushed tomatoes, Italian seasoning, and water. Stir to combine and dissolve the browned bits off the bottom of the skillet. Allow the sauce to come to a simmer. Once simmering, place a tilted lid on top (to allow steam to escape while blocking splatter) and turn the heat down to medium-low. Let the sauce simmer, stirring occasionally, while you cook the pasta. \n\n
+3.	Bring a large pot of water to a boil for the pasta. Once boiling, add the pasta and continue to boil until the pasta is tender (7-10 minutes, depending on the variety). Drain the pasta in a colander. \n\n
+4.	After the pasta has cooked and the sauce has simmered a while, stir the heavy cream into the pasta sauce. Add the fresh spinach and stir it into the sauce just until wilted. \n\n
+5.	Finally, add the cooked and drained pasta to the sauce and stir to combine. Serve and enjoy!
+</string>
+    <string name="Moglai">
+    for dough: \n\n
+    ▢2 cup maida / plain flour \n
+    ▢2 tbsp oil \n
+    ▢½ tsp salt \n
+    ▢water for kneading \n\n
+    for stuffing: \n
+    ▢2 tsp oil \n
+    ▢½ onion (finely chopped) \n
+    ▢2 chilli (finely chopped) \n
+    ▢1 tsp ginger garlic paste \n
+    ▢1 capsicum (finely chopped) \n
+    ▢1 carrot (grated) \n
+    ▢¼ tsp turmeric \n
+    ▢½ tsp kashmiri red chilli powder \n
+    ▢½ tsp coriander powder \n
+    ▢¼ tsp cumin powder / jeera powder \n
+    ▢½ tsp aamchur / dry mango powder \n
+    ▢¼ tsp garam masala \n
+    ▢½ tsp salt \n
+    ▢2 cup paneer (grated) \n\n
+
+    INSTRUCTIONS \n\n
+
+    1.prepare the stuffing by heating 2 tsp oil. \n
+
+    2.saute ½ onion, 2 chilli and 1 tsp ginger garlic paste for 2 minutes. \n
+
+    3.further add 1 capsicum, 1 carrot and saute till the vegetables shrink. \n
+
+    4additionally, add ¼ tsp turmeric, ½ tsp chilli powder, ½ tsp coriander powder, ¼ tsp cumin powder, ½ tsp aamchur, ¼ tsp garam masala and ½ tsp salt. \n
+
+    5.saute for a minute or till spices turn aromatic. \n
+
+    6.keep aside and allow to cool the paneer stuffing completely. \n
+
+    8.after the dough has rested for 20 minutes, knead slightly and pinch a ball sized dough. \n
+
+    9.roll the dough to slightly thin thickness. \n
+
+    10.further, spread the prepared paneer stuffing in centre. \n
+
+    now carefully fold and close all sides of paratha forming a square. press gently. \n
+
+    11.roast the paratha on hot tawa or shallow fry the parathas. \n
+
+    12.spread a tsp of oil on both sides and roast to golden and crisp from all sides. \n
+    finally, serve veg mughlai paratha along with raita or curry.\n\n\n
+        # RECIPE 2 \n\n
+3 cup whole wheat flour \n
+1 cup all purpose flour \n
+6 tablespoon ghee \n
+salt as required \n
+4 egg \n
+1 cup onion \n
+1 teaspoon green chilli \n
+1 cup coriander leaves \n
+water as required \n\n
+HOW TO MAKE MUGHLAI PARATHA \n\n
+Step 1 / 5 \n
+To prepare this delicious Bengali paratha, take a dough kneading plate and add whole wheat flour in it along with refined flour and the two tablespoons of ghee. Mix well and knead using water until the dough becomes firm. Then leave it aside for a few hours. Peel the onions and finely chop in a bowl, keep aside until required. \n\n
+
+Step 2 / 5 \n
+Once a few hours have passed divide the dough into four parts. Cover it with a cloth and leave it to rest again for 20 minutes. \n\n
+
+Step 3 / 5 \n
+Now, put a non-stick pan over medium flame. Meanwhile, take one part of the dough and use a little dry flour and rolling pin to form a thick roti. \n\n
+
+Step 4 / 5 \n
+Next, place the roti on the pan and crack an egg at the centre of the roti. Before the eggs start to solidify, top it up with green chilies, onions, coriander leaves, and salt. Now, lower the heat to medium and start folding it by bringing the four sides of the roti to the centre. \n\n
+
+Step 5 / 5 \n
+To properly cook the paratha, make sure to put some ghee around it. Once the base is done, spear the part above with ghee and flip it over to cook from the other side too. Once it becomes golden brown and the crust becomes a little crunchy turn of the gas and put the paratha on a plate. Serve it hot tomato ketchup or gravy of your choice.
+
+</string>
+    <string name="Chowmein">
+
+    INGREDIENTS: \n
+    1/4 cup oyster sauce \n
+    1 tablespoon soy sauce \n
+    3 cloves garlic, minced \n
+    2 teaspoons freshly grated ginger \n
+    1 teaspoon Sriracha \n
+    1 (16-ounce) package Hong Kong-style pan-fried noodles \n
+    Kosher salt and freshly ground black pepper, to taste \n
+    2 tablespoons canola oil \n
+    1 (3.5-ounce) package shiitake mushrooms \n
+    4 baby bok choy, coarsely chopped\n
+    1 cup mung bean sprouts, rinsed and drained \n\n
+
+    DIRECTIONS: \n
+    1.In a small bowl, whisk together oyster sauce, soy sauce, garlic, ginger and Sriracha; set aside. \n
+
+    2.Heat 1 tablespoon canola oil in a large skillet or wok over medium high heat.  \n
+
+    3.Add noodles and cook, stirring constantly, until golden brown and crispy, about 3-4 minutes; set aside. \n
+
+    4.Heat remaining 1 tablespoon canola oil in the skillet. Add mushrooms, and cook, stirring often, until tender, about 3-4 minutes. \n
+    5. Stir in bok choy until just wilted, about 1 minute. \n
+    Stir in noodles and oyster sauce mixture until well combined, about 2 minutes. Stir in bean sprouts. \n
+
+    6.Serve immediately.
+</string>
+    <string name="Hotfries">
+
+    Ingredients \n\n
+    2 russet potatoes (about 1 1/2 lbs.), peeled and cut into 1/16-inch julienne \n
+    Vegetable oil, for frying \n
+    2 tbsp. cornstarch \n
+    1 tsp. cayenne pepper \n
+    1 tsp. garlic powder \n
+    1 tsp. sweet paprika \n
+    Kosher salt \n\n
+    Instructions \n\n
+    Place the potatoes to a colander and rinse under cold water until the water runs clear. Drain the potatoes, and then spread them out on a kitchen towel or paper towel and pat dry. \n\n
+    Pour oil to a depth of 2 inches in a 6-qt. saucepan and heat over medium-high until a deep-fry thermometer reads 375°. Add the cornstarch to the potatoes, and toss until evenly coated. Working in batches, fry the potatoes, stirring constantly with a slotted spoon and maintaining an oil temperature of at least 350°, until light golden brown and crisp, about 2 minutes. \n\n
+    Using a slotted spoon, transfer the fries to a rack set over a rimmed baking sheet to drain briefly. Transfer the fries to a large bowl along with the cayenne, garlic powder, and paprika, and toss until evenly coated. Season with salt and serve while hot.
+</string>
+    <string name="BreadPizza">
+
+    INGREDIENTS \n\n
+
+
+
+    Bread of your choice. \n
+
+    Pizza sauce. Marinara sauce or jarred pasta sauce will work well too. \ n
+
+    Mozzarella cheese.  \n
+
+    Pepperoni/salami. \n
+
+    Oregano. \n\n
+
+    Method: \n
+
+    Toast the bread: Pop sliced bread into a toaster or alternative toast under the grill/broiler of your oven on both sides. \n\n
+
+    Add toppings: Place slices of toasted bread onto a rimmed baking sheet. Top the toast with pizza sauce. Scatter over grated or shredded mozzarella cheese and top with your choice of toppings. Sprinkle over dried oregano and place in a hot oven. \n\n
+
+    Bake: Allow to cook until the cheese has melted then remove from the oven and serve.
+</string>
+    <string name="PlainRice">
+
+    Ingredients: \n\n
+    Polao rice - 4 cups \n
+    Chopped onion - ½ cup \n
+    Ginger paste - 2 teaspoon \n
+    Garlic paste - ½ teaspoon \n
+    Cinnamon - 3 to 4 sticks \n
+    Cardamom - 4 to 5 \n
+    Cloves - 2 to 3 \n
+    Whole black pepper - 5 to 6 \n
+    Kewra water - 2 tablespoons \n
+    Salt - 1 tablespoon \n
+    Ghee or oil - ½ cup \n\n
+
+    Preparation: \n
+    Clean the rice and drain all the water completely. \n
+
+    Heat the ghee or oil in a pan. \n
+    Fry the onions until they are crispy and keep aside. \n
+
+    In the same pan, fry the rest of the ingredients, except for the salt and kewra water, for 1 to 2 mins.Stir gently.Pour in all the rice and keep frying over low heat. \n
+
+    Once the water dries up and the oil separates out, add the salt and about 6 cups of hot water. Stir and turn up the heat. \n
+    Wait until the water starts to bubble. Cover the pan and lower the heat once again. \n
+    Gently stir the rice after 3 to 4 minutes, and add the kewra water. \n
+
+    Keep over low heat for about 15 to 20 minutes. Stir occasionally and ensure the rice does not stick to the bottom of the pan. \n
+    Turn off the heat once the rice becomes soft and fluffy. \n
+
+    Sprinkle the fried onions on top and serve hot.
+</string>
+    <string name="FriedRice">
+    Ingredients\n\n
+    . White long grain rice- Day old and cold rice help to keep it from being mushy.\n
+    •	Small white onion  \n
+    •	Vegetables- Peas and Carrots.  You can also add in other veggies such as bell pepper, broccoli, cauliflower, asparagus, snow peas and cabbage.\n
+    •	Eggs\n
+    •	Sesame Oil \n
+    •	Soy Sauce\n
+    •	Green Onions- Garnish with adding in sliced green onions right at the end! \n\n
+    How to make Fried Rice\n\n
+    Preheat Skillet. Turn your skillet to medium high heat and pour sesame oil into the bottom of your skillet and add the onion, peas and carrots. Fry this until they are tender. \n\n
+    Slide the veggies to the side. Pour the beaten eggs onto the other side. Use a spatula to scramble the eggs. Mix them together with the veggies.\n\n
+    Add the rice. Combine it with the veggie and egg mixture. Pour the soy sauce on top and stir until it is heated throughout. Garnish with green onions./n/n
+
+        # RECIPE 2 \n\n
+
+INGREDIENTS \n\n
+3 tbsp.
+sesame oil, divided \n
+3
+large eggs \n
+Kosher salt \n
+2
+carrots, diced \n
+3
+green onions, thinly sliced, white and green parts divided \n
+3
+cloves garlic, minced \n
+1 tbsp.
+peeled and minced ginger \n
+4 c.
+cooked long grain rice (preferably leftover) \n
+3/4 c.
+frozen peas \n
+3 tbsp.
+low-sodium soy sauce \n\n
+
+DIRECTIONS \n\n
+1.	Heat a large cast iron skillet over high heat until very hot, about 2 minutes. Add 1 tablespoon oil. \n\n
+2.	Beat egg with 2 teaspoons water and a large pinch salt and add to skillet. Cook, stirring to form large soft curds, about 30 seconds. Transfer to a plate. \n\n
+3.	Return skillet to high heat and add 2 tablespoons oil, the carrots, and whites of the green onions. Cook until lightly golden, about 2 minutes. Add garlic and ginger and cook, stirring, until fragrant, 1 minute. \n\n
+4.	Add rice, peas, and cooked eggs to skillet. Pour in soy sauce and cook, stirring until heated through, 1 minute. Season with salt and pepper and stir in the remaining green onions.
+</string>
+    <string name="Biriany">
+    INGREDIENTS \n\n
+
+    •	for chicken \n
+
+    •	1 tablespoon
+    vegetable oil \n
+
+    •	10 grams
+    garlic (grated) \n
+    •	10 grams
+    ginger (grated) \n
+    •	1
+    serrano chili peppers (to taste, minced) \n
+    •	5 grams
+    mint (finely chopped) \n
+    •	10 grams
+    cilantro (finely chopped \n
+    •	1 tablespoon
+    garam masala \n
+    •	1/2 teaspoon
+    ground cinnamon \n
+    •	1 teaspoon
+    Salt \n
+    •	900 grams
+    bone-in skin-on chicken thighs \n\n
+    for rice \n
+    •	6 cups
+    Water \n
+    •	2 1/2 teaspoons
+    Salt \n
+    •	5
+    pods green cardamom (smashed) \n
+    •	1 teaspoon
+    cumin seeds \n
+    •	1
+    bay leaf \n
+    •	360 grams
+    basmati rice (~2 cups) \n\n
+    for onions \n
+    •	2 tablespoon
+    Ghee \n
+    •	2
+    medium onions (sliced thin) \n\n
+    for Biryani \n
+    •	1 cup
+    reserved boiling liquid (from rice) \n
+    •	1/2 teaspoon
+    saffron threads \n
+    •	cilantro (for garnish) \n\n
+    STEPS \n
+    1.	To marinate the chicken for the biryani, combine the vegetable oil, garlic, ginger, chili peppers, mint, cilantro, garam masala, cinnamon and salt in a large bowl and stir together. Add the chicken pieces and toss together making sure the chicken is thoroughly coated in the marinade. Allow the chicken to marinate for at least 1 hour or up to overnight. \n\n
+    2.	In a pot wide enough to hold the chicken in a single layer, add the ghee and onions and saute the onions until they are well caramelized (15-20 minutes). Transfer the caramelized onions to a bowl and set aside. \n\n
+    3.	While the onions caramelize, prepare the rice by washing in a strainer under cold running water until the water runs clear. \n\n
+    4.	To par-boil the rice, add the water, salt, cardamom, cumin and bay leaf to a pot and bring to a boil. Add the rice and boil for 7 minutes. Drain the rice, reserving 1 cup of the liquid. \n\n
+    5.	In the pot you caramelized the onions in, add the chicken in a single layer, skin-side down. Fry until golden brown on one side (about 5 minutes). Flip the chicken over and fry the other side until golden brown. Transfer the chicken back to the bowl you marinated it in. \n\n
+    6.	To assemble the biryani, add the saffron to the rice and toss to distribute evenly. Add half the rice mixture to the bottom of the pot you browned the chicken in. \n\n
+    7.	Top the rice with the chicken in a single layer. \n\n
+    8.	Top the chicken with an even layer of caramelized onions. \n\n
+    9.	Finish putting together the Biryani by adding the rest of the rice in an even layer. Add 1 cup of reserved liquid from boiling the rice. Cover the pot with a lid and put the pot on the stove over medium heat and set the timer for 20 minutes. When you can see steam escaping from under the lid, turn down the heat to low and continue cooking until the timer goes off and then turn off the heat. \n\n
+    10.	Without opening the lid, set the timer for another 10 minutes to steam the biryani. \n\n
+    11.	Mix the Chicken Biryani together and then transfer to a serving platter. Garnish with fresh cilantro and serve.
+</string>
+    <string name="ChickenCurry">
+    2 tbsp vegetable oil \n
+    ▢3 chicken breasts - (approx 500g/17.5 oz) chopped into bite-size chunks \n
+    ▢1 large onion - (or 2 small) peeled and finely chopped \n
+    ▢2 cloves garlic – minced \n
+    ▢2 tsp minced ginger \n
+    ▢2 tbsp mild curry powder- go hotter if you prefer \n
+    ▢1 tbsp ground coriander \n
+    ▢½ tbsp ground cumin \n
+    ▢1 tsp paprika \n
+    ▢½ tsp ground cinnamon \n
+    ▢½ tsp salt \n
+    ▢½ tsp black pepper \n
+    ▢2 tbsp tomato puree/paste \n
+    ▢14 oz (400g) tin finely chopped tomatoes \n
+    ▢1 cup (240ml) chicken stock \n
+    ▢14 oz (400ml) tin full fat coconut milk \n
+    ▢1 tbsp cornflour mixed with 2 tbsp cold water to make a slurry – optional \n
+    ▢2 packed cups (60g) \n\n
+
+    INSTRUCTIONS \n\n
+
+    Heat oil in a large frying pan (skillet) over a medium-high heat. \n
+    Add the chicken and cook for 5 minutes, turning occasionally, until sealed. \n
+    Add the onion to the pan (with the chicken still in there) and cook for 5 minutes, stirring often, to soften. \n
+    Add the garlic, ginger, curry powder, ground coriander, cumin, paprika, cinnamon, salt and pepper. Stir and cook for a further minute. \n
+    Add the tomato puree, tinned tomatoes, stock and coconut milk. \n
+
+    Bring to a gentle bubble, then simmer gently, stirring occasionally for 10 minutes – until the chicken is cooked through. \n
+    If you would like to thicken the curry, stir in the cornflour slurry. This is optional, you can leave it out if the curry thickness is to your liking. \n
+    Stir in the spinach (it should wilt quickly) then turn off the heat. \n
+    Serve with boiled rice, topped with fresh coriander and chilli flakes.
+</string>
+    <string name="ChineseVegatable">
+    Ingredients \n\n
+    Mix vegetables-carrot,bean,potato,corn,cauliflower,papaya - 500 gm cut into cubed \n
+    Sweet corn - 4 tablespoon \n
+    Gingerpaste - 1/2 teaspoon \n
+    Garlic paste - 1/2 teaspoon \n
+    Onion - 1/2 cup \n
+    Cornflour - 2 tablespoon \n
+    White pepper powder - 1 teaspoon \n
+    Tasting salt - as required \n
+    Oil - 3 tablespoon \n
+    Dark Soy sauce - 2 tablespoon \n
+    Fish sauce - 2 tablespoon \n
+    Milk - 1/2 cup \n
+    Sugar - 1 teaspoon \n
+    salt - as required \n
+    Green Chilies - 3-4 numbers \n
+    Lemon juice - 2 teaspoon \n
+    Ghee - 1 tablespoon \n
+    For the chicken \n
+    Boneless chicken - 150 gm/1 cup \n
+    Water - 3 cups \n
+    Onion - 1 tablespoon chopped \n
+    Ginger-garlic paste - 1 teaspoon \n\n
+    Instructions \n\n
+    Preparation: \n\n
+
+    Cut the any kind of vegetables into cubed pieces. Clean and dry all vegetables. \n
+    Heat enough water in a pan then boil vegetables for two minutes. \n
+    Drain all water. Cover and keep aside. \n
+    In a medium sauce pan eat three cups of water and place the boneless chicken with ginger -garlic paste and sliced onion. \n
+    Boiled until tender.Let them cool. \n
+    Then shred the cooked chicken and preserve the chicken stock. \n
+    In a small bowl mix cornflour with half cup of room temperatured stock. \n
+    Mix them well until no lumps. Keep aside. \n\n
+
+
+    Method: \n\n
+
+    Heat oil in a deep bottom pan,pour onion slices, ginger paste, garlic paste and stir for half a minute. \n
+    Then add boiled vegetables and sweet corn. \n
+    Stir for another 30 second. Now mix the shredded chicken. Add remaining stock , milk , soy sauce, pepper powder, tasting salt and sugar. \n
+    Cover and cook for 5 minutes. Then add cornflour mixture, mix well with vegetables and cook another one minute. \n
+    Now add fish sauce, lemon juice, ghee and green chilies. \n
+    Remove from heat and serve.
+</string>
+    <string name="prawncurry">
+
+
+    Ingredients \n\n
+    1 clove of garlic \n
+    1 red onion \n
+    7 cm piece of ginger \n
+    1 fresh green chilli \n
+    200 g ripe tomatoes \n
+    175 g basmati rice \n
+    vegetable oil \n
+    1 teaspoon black mustard seeds \n
+    1½ teaspoons garam masala \n
+    ¾ teaspoon ground turmeric \n
+    120 g large raw peeled tiger prawns , from sustainable sources \n
+    ½ x 400 g tin of light coconut milk \n
+    125 g baby spinach \n
+    1 lime \n\n
+
+
+    Method \n
+    Fill a medium pan with salted water, place over a high heat and bring to a boil. \n\n
+
+    Peel and finely slice the garlic and onion, then peel and finely grate the ginger. Halve and deseed the chilli, then finely slice. Roughly chop the tomatoes. \n\n
+
+    Add the rice to the boiling water and cook for 10 minutes, or until tender. Drain in a sieve, then return to the warm pan, cover with a lid and set aside off the heat. \n\n
+
+    Heat 2 tablespoons of oil in a medium pan over a medium heat, add the mustard seeds, garam masala and turmeric, then fry for 1 minute. \n\n
+
+    Add the onion, garlic and ginger, then fry for 10 minutes, or until softened. Add the chilli, tomatoes and a splash of water, then turn the heat up and cook for a further 3 minutes. \n\n
+
+    Next, add the prawns and coconut milk, bring to the boil then reduce the heat slightly and simmer gently for 3 to 4 minutes, or until the prawns are just cooked. \n\n
+
+    Stir through the spinach and cook for a further 1 to 2 minutes until the spinach has wilted. \n\n
+    Divide the rice between plates. Season the prawn curry to taste with salt, black pepper and a squeeze of lime juice, then ladle the curry onto the rice. \n\n
+
+    Serve with the remaining lime, cut into wedges for squeezing over.
+</string>
+    <string name="Pudding">
+
+    •	2 cups half-and-half (473 ml) OR 1 ¾ cups whole milk (414 ml) and ¼ cup heavy cream (59 ml) \n
+    •	1/3 cup (66g) sugar \n
+    •	2 tablespoons (17g) cornstarch \n
+    •	1/8 teaspoon kosher salt \n\n
+
+    For chocolate pudding (use both): \n
+    •	1/3 cup (28 grams) unsweetened cocoa powder \n
+    •	3 to 4 ounces (85 grams to 115 grams) dark chocolate, finely chopped \n\n
+    To infuse: \n
+    •	2 black or jasmine tea bags \n
+    •	1/2 teaspoon ground cinnamon, turmeric, or cardamom \n
+    •	1/4 teaspoon ground nutmeg or crushed saffron threads \n
+    •	3 pandan leaves, tied in a loose knot \n
+    •	2 tablespoons ground coffee \n\n
+    Liquid flavorings: \n
+    •	1 teaspoon vanilla or almond extract \n
+    •	1 teaspoon orange blossom or rose water \n
+    •	Up to 1/4 cup liquor or liqueur \n\n
+    Method \n\n
+    1.	If infusing, combine half-and-half (or milk and cream mixture) with your chosen ingredient, heat to a simmer, then steep for 10 minutes before straining. \n\n
+    2.	Combine the sugar, cornstarch, salt, and cocoa powder, if using, in a heavy-bottomed saucepan. Whisk to combine. \n\n
+    3.	Add a splash of the milk mixture to the saucepan and whisk to form a smooth paste. Then stir in the rest of the mixture. \n\n
+    4.	Place over medium heat and stir constantly, until the pudding thickens and bubbles, about five minutes. Stir for another minute. Add the chopped chocolate, if using, and stir until incorporated. Then remove from heat. \n\n
+    5.	Stir in liquid flavorings, if using, and pour immediately into serving bowls. Let rest on the counter until set. \n\n
+    6.	Serve chilled or at room temperature. Or disinvite your guests and eat it all yourself.
+</string>
+    <string name="Falooda">
+    Ingredients \n\n
+
+    •	2 teaspoons Basil seeds (Sabja seeds or Falooda seeds) \n
+    •	 ▢1 ½ cups Milk \n
+    •	 ▢2 tablespoons Sugar \n
+    •	 ▢handful FaloodaSev \n
+    •	 ▢2 tablespoons Rose Syrup \n
+    •	 ▢2 scoops Ice cream \n
+    •	 ▢few Pistachios chopped for garnishing \n
+    •	 ▢few Rose petals for garnishing (optional) \n\n
+    Instructions \n\n
+    Preparation: \n
+    1.	Soak basil seeds in the water for at least 30 minutes. After 30 minutes drain them. \n\n
+    2.	Meanwhile take milk and sugar in the pan. Let it come to a boil on medium heat. \n\n
+    3.	And then lower the heat and let it simmer for 5-7 minutes. Then chill it in the refrigerator. Milk becomes little thick. \n\n
+    Make the faloodasev as per package instruction. \n
+    1.	How I did – take some water in a pan, let it come to a rolling boil. Add faloodasev, let it cook for 4-5 minutes. \n\n
+    2.	Drain it and rinse it with cold water immediately to stop further cooking. using kitchen scissors, cut them into approx 1 inch pieces, so it will easier to eat later. \n\n
+    3.	Now everything is ready, soaked basil seeds, chilled milk and sev. Let’s assemble the falooda. \n\n
+    Making falooda recipe: \n
+    1.	Take two glasses. Add spoonful of basil seeds to it. \n
+    2.	Then on top add cooked faloodasev. \n
+    3.	Then add 1 tablespoon of rose syrup in each glass. \n
+    4.	Pour the milk in it. Some basil seeds will float on top. \n
+    5.	Then add a scoop of ice cream. \n
+    6.	Garnish it with chopped pistachios and rose petals. \n
+    7.	Serve immediately.
+</string>
+    <string name="Strawberryshake">
+    Ingredients \n\n
+
+    2 cups milk \n
+
+    1 tablespoon honey \n
+
+    1 teaspoon vanilla extract \n
+
+    1 cup frozen strawberries \n\n
+
+    Instructions: \n\n
+
+    In a blender, combine milk, honey, vanilla and frozen strawberries. Blend until smooth. Pour into glasses and serve.
+</string>
+
+    <string name="CHOCOLATEMILKSHAKE">
+INGREDIENTS\n\n
+
+⅔ cup milk\n
+ ▢2 cups ice cream use chocolate ice cream for a chocolate shake\n
+ ▢3 tablespoons chocolate syrup or mix ins of your choice\n
+ whipped cream for topping optional\n\n
+DIRECTIONS\n\n
+
+•	Combine milk, chocolate syrup and chocolate ice cream in a blender. Blend until smooth.\n
+•	Pour into cups and garnish with whipped cream and sprinkles if desired.\n
+•	Serve immediately
+</string>
+
+</resources>
