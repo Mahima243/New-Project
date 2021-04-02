@@ -7,11 +7,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <SearchView
+
+        android:divider="#CDDC39"
+        android:id="@+id/search_view_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search Item Here"
+        >
+
+    </SearchView>
+
     <ListView
         android:id="@+id/list_view_category"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:listSelector="#22E5FF">
+        android:listSelector="#CDDC39">
 
 
     </ListView>

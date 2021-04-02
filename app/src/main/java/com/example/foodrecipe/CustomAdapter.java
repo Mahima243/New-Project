@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -24,7 +25,6 @@ public class CustomAdapter extends BaseAdapter {
     private ArrayList<FoodItem> arrayList;
 
 
-
     public CustomAdapter(Context context, String[] foodNames, int[] pic, List<FoodItem> foodItemList) {
         this.context = context;
         this.foodNames = foodNames;
@@ -36,12 +36,12 @@ public class CustomAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return foodNames.length;
+        return foodItemList.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return position;
+        return foodItemList.get(position);
     }
 
     @Override
@@ -59,24 +59,35 @@ public class CustomAdapter extends BaseAdapter {
         }
         ImageView imageView = (ImageView) view.findViewById(R.id.imageViewId);
         TextView textView = (TextView) view.findViewById(R.id.textView);
-        imageView.setImageResource(pic[i]);
-        textView.setText(foodNames[i]);
+/*        imageView.setImageResource(pic[i]);
+        textView.setText(foodNames[i]);*/
+        imageView.setImageResource(foodItemList.get(i).getFoodImage());
+        textView.setText(foodItemList.get(i).getFoodName());
+
 
         return view;
     }
 
-    public void filter(String charText){
+
+    public void filter(String charText) {
         charText = charText.toLowerCase(Locale.getDefault());
         foodItemList.clear();
-        if (charText.length()==0){
+        if (charText.length() == 0) {
             foodItemList.addAll(arrayList);
-        }
-        else {
-            for (FoodItem foodItem : arrayList){
-                if (foodItem.getFoodName().toLowerCase(Locale.getDefault())
-                        .contains(charText)){
+        } else {
+            for (FoodItem foodItem : arrayList) {
+                String name = foodItem.getFoodName().toLowerCase(Locale.getDefault());
+                if (name.contains(charText)) {
                     foodItemList.add(foodItem);
                 }
+/*                if (name.contains(charText) && !foodItemList.contains(foodItem)){
+                    foodItemList.add(foodItem);
+                }
+                else if(!name.contains(charText) && foodItemList.contains(foodItem)){
+                    foodItemList.remove(foodItem);
+                }*/
+
+
             }
         }
         notifyDataSetChanged();

@@ -51,7 +51,7 @@ public class CategoryActivity extends AppCompatActivity {
             arrayList.clear();
             items = getResources().getStringArray(R.array.FastFood);
             for (int i = 0; i < fastFoodPic.length; i++) {
-                FoodItem foodItem = new FoodItem(items[i], fastFoodPic[i]);
+                FoodItem foodItem = new FoodItem(items[i], fastFoodPic[i], i);
                 arrayList.add(foodItem);
             }
             CustomAdapter adapter = new CustomAdapter(this, items, fastFoodPic, arrayList);
@@ -78,30 +78,32 @@ public class CategoryActivity extends AppCompatActivity {
 
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
-
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    if (position == 0) {
+                    FoodItem foodItem = (FoodItem) listView.getItemAtPosition(position);
+                    int foodId = foodItem.getId();
+                    if (foodId == 0) {
                         Intent intent = new Intent(CategoryActivity.this, NewActivity.class);
+                        listView.getItemAtPosition(position);
                         startActivity(intent);
                     }
-                    if (position == 1) {
+                    if (foodId == 1) {
                         Intent intent = new Intent(CategoryActivity.this, SecondActivity.class);
                         startActivity(intent);
                     }
-                    if (position == 2) {
+                    if (foodId == 2) {
                         Intent intent = new Intent(CategoryActivity.this, ThirdActivity.class);
                         startActivity(intent);
                     }
-                    if (position == 3) {
+                    if (foodId == 3) {
                         Intent intent = new Intent(CategoryActivity.this, FourthActivity.class);
                         startActivity(intent);
                     }
-                    if (position == 4) {
+                    if (foodId == 4) {
                         Intent intent = new Intent(CategoryActivity.this, FifthActivity.class);
                         startActivity(intent);
                     }
-                    if (position == 5) {
+                    if (foodId == 5) {
                         Intent intent = new Intent(CategoryActivity.this, SixActivity.class);
                         startActivity(intent);
                     }
@@ -111,27 +113,48 @@ public class CategoryActivity extends AppCompatActivity {
         } else if (value.equals("rice")) {
             items = getResources().getStringArray(R.array.RiceItem);
             for (int i = 0; i < riceItemPic.length; i++) {
-                FoodItem foodItem = new FoodItem(items[i], riceItemPic[i]);
+                FoodItem foodItem = new FoodItem(items[i], riceItemPic[i], i);
                 arrayList.add(foodItem);
             }
             CustomAdapter adapter = new CustomAdapter(this, items, riceItemPic, arrayList);
             listView.setAdapter(adapter);
+
+            searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+                @Override
+                public boolean onQueryTextSubmit(String query) {
+                    return false;
+                }
+
+                @Override
+                public boolean onQueryTextChange(String newText) {
+
+                    if (TextUtils.isEmpty(newText)) {
+                        adapter.filter("");
+                        listView.clearTextFilter();
+                    } else {
+                        adapter.filter(newText);
+                    }
+                    return true;
+                }
+            });
 
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
 
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    if (position == 0) {
-                        Intent intent = new Intent(CategoryActivity.this, NewActivity.class);
+                    FoodItem foodItem = (FoodItem) listView.getItemAtPosition(position);
+                    int foodId = foodItem.getId();
+                    if (foodId == 0) {
+                        Intent intent = new Intent(CategoryActivity.this, SevenActivity.class);
                         startActivity(intent);
                     }
-                    if (position == 1) {
-                        Intent intent = new Intent(CategoryActivity.this, SecondActivity.class);
+                    if (foodId == 1) {
+                        Intent intent = new Intent(CategoryActivity.this, EightActivity.class);
                         startActivity(intent);
                     }
-                    if (position == 2) {
-                        Intent intent = new Intent(CategoryActivity.this, ThirdActivity.class);
+                    if (foodId == 2) {
+                        Intent intent = new Intent(CategoryActivity.this, NineActivity.class);
                         startActivity(intent);
                     }
                 }
@@ -139,27 +162,48 @@ public class CategoryActivity extends AppCompatActivity {
         } else if (value.equals("curry")) {
             items = getResources().getStringArray(R.array.CurryItem);
             for (int i = 0; i < curryItemPic.length; i++) {
-                FoodItem foodItem = new FoodItem(items[i], curryItemPic[i]);
+                FoodItem foodItem = new FoodItem(items[i], curryItemPic[i], i);
                 arrayList.add(foodItem);
             }
             CustomAdapter adapter = new CustomAdapter(this, items, curryItemPic, arrayList);
             listView.setAdapter(adapter);
+
+            searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+                @Override
+                public boolean onQueryTextSubmit(String query) {
+                    return false;
+                }
+
+                @Override
+                public boolean onQueryTextChange(String newText) {
+
+                    if (TextUtils.isEmpty(newText)) {
+                        adapter.filter("");
+                        listView.clearTextFilter();
+                    } else {
+                        adapter.filter(newText);
+                    }
+                    return true;
+                }
+            });
 
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
 
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    if (position == 0) {
-                        Intent intent = new Intent(CategoryActivity.this, NewActivity.class);
+                    FoodItem foodItem = (FoodItem) listView.getItemAtPosition(position);
+                    int foodId = foodItem.getId();
+                    if (foodId == 0) {
+                        Intent intent = new Intent(CategoryActivity.this, TenActivity.class);
                         startActivity(intent);
                     }
-                    if (position == 1) {
-                        Intent intent = new Intent(CategoryActivity.this, SecondActivity.class);
+                    if (foodId == 1) {
+                        Intent intent = new Intent(CategoryActivity.this, ElevenActivity.class);
                         startActivity(intent);
                     }
-                    if (position == 2) {
-                        Intent intent = new Intent(CategoryActivity.this, ThirdActivity.class);
+                    if (foodId == 2) {
+                        Intent intent = new Intent(CategoryActivity.this, TwelveActivity.class);
                         startActivity(intent);
                     }
                 }
@@ -168,23 +212,44 @@ public class CategoryActivity extends AppCompatActivity {
         } else if (value.equals("deserts")) {
             items = getResources().getStringArray(R.array.DesertsItem);
             for (int i = 0; i < desertItemPic.length; i++) {
-                FoodItem foodItem = new FoodItem(items[i], desertItemPic[i]);
+                FoodItem foodItem = new FoodItem(items[i], desertItemPic[i], i);
                 arrayList.add(foodItem);
             }
             CustomAdapter adapter = new CustomAdapter(this, items, desertItemPic, arrayList);
             listView.setAdapter(adapter);
+
+            searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+                @Override
+                public boolean onQueryTextSubmit(String query) {
+                    return false;
+                }
+
+                @Override
+                public boolean onQueryTextChange(String newText) {
+
+                    if (TextUtils.isEmpty(newText)) {
+                        adapter.filter("");
+                        listView.clearTextFilter();
+                    } else {
+                        adapter.filter(newText);
+                    }
+                    return true;
+                }
+            });
 
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
 
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    if (position == 0) {
-                        Intent intent = new Intent(CategoryActivity.this, NewActivity.class);
+                    FoodItem foodItem = (FoodItem) listView.getItemAtPosition(position);
+                    int foodId = foodItem.getId();
+                    if (foodId == 0) {
+                        Intent intent = new Intent(CategoryActivity.this, ThirteenActivity.class);
                         startActivity(intent);
                     }
-                    if (position == 1) {
-                        Intent intent = new Intent(CategoryActivity.this, SecondActivity.class);
+                    if (foodId == 1) {
+                        Intent intent = new Intent(CategoryActivity.this, FourteenActivity.class);
                         startActivity(intent);
                     }
                 }
@@ -192,23 +257,44 @@ public class CategoryActivity extends AppCompatActivity {
         } else {
             items = getResources().getStringArray(R.array.Shakes);
             for (int i = 0; i < shakeItemPic.length; i++) {
-                FoodItem foodItem = new FoodItem(items[i], shakeItemPic[i]);
+                FoodItem foodItem = new FoodItem(items[i], shakeItemPic[i], i);
                 arrayList.add(foodItem);
             }
             CustomAdapter adapter = new CustomAdapter(this, items, shakeItemPic, arrayList);
             listView.setAdapter(adapter);
+
+            searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+                @Override
+                public boolean onQueryTextSubmit(String query) {
+                    return false;
+                }
+
+                @Override
+                public boolean onQueryTextChange(String newText) {
+
+                    if (TextUtils.isEmpty(newText)) {
+                        adapter.filter("");
+                        listView.clearTextFilter();
+                    } else {
+                        adapter.filter(newText);
+                    }
+                    return true;
+                }
+            });
 
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
 
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    if (position == 0) {
-                        Intent intent = new Intent(CategoryActivity.this, NewActivity.class);
+                    FoodItem foodItem = (FoodItem) listView.getItemAtPosition(position);
+                    int foodId = foodItem.getId();
+                    if (foodId == 0) {
+                        Intent intent = new Intent(CategoryActivity.this, FifteenActivity.class);
                         startActivity(intent);
                     }
-                    if (position == 1) {
-                        Intent intent = new Intent(CategoryActivity.this, SecondActivity.class);
+                    if (foodId == 1) {
+                        Intent intent = new Intent(CategoryActivity.this, SixteenActivity.class);
                         startActivity(intent);
                     }
                 }

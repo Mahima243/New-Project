@@ -13,12 +13,10 @@ public class ItemDetail extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_item_detail);
-        itemlist=(TextView)findViewById(R.id.itemlist);
+        itemlist = (TextView) findViewById(R.id.itemlist);
 
 
-
-
-        Intent intent=getIntent();
+        Intent intent = getIntent();
         itemlist.setText(intent.getStringExtra("select"));
 
     }

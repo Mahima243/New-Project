@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.media.session.PlaybackState;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -19,15 +20,18 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 //   ListView listView;
 //   SearchView searchView;
-//   String ItemList[]={"FastFood","Rice Item","Curry Item","Deserts","Appetizer"};
+//   String ItemList[]={"FastFood","Rice Item","Curry Item","Deserts","Shakes"};
 
-//    private GridView gridView;
+    //    private GridView gridView;
 //
-    int[] pic={R.drawable.food1,R.drawable.food2,R.drawable.food3,R.drawable.food4,R.drawable.food5,R.drawable.food6,R.drawable.food7,R.drawable.food8,
-    R.drawable.food9,R.drawable.food10,R.drawable.food11,R.drawable.food12,R.drawable.food13,R.drawable.food14,R.drawable.food15,R.drawable.food16};
-    String[]foodNames;
+    int[] pic = {R.drawable.fastfood, R.drawable.rice, R.drawable.curry, R.drawable.deserts, R.drawable.shakes,
+            R.drawable.food1, R.drawable.food2, R.drawable.food3, R.drawable.food4, R.drawable.food5, R.drawable.food6, R.drawable.food7, R.drawable.food8,
+            R.drawable.food9, R.drawable.food10, R.drawable.food11, R.drawable.food12, R.drawable.food13, R.drawable.food14, R.drawable.food15, R.drawable.food16};
+    String[] foodNames;
 
     private ListView listView;
+    private SearchView searchView;
+
     private String[] categoryNames;
     private ArrayList<FoodItem> arrayList = new ArrayList<FoodItem>();
 
@@ -37,45 +41,67 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listView=(ListView)findViewById(R.id.list_view_category);
-        categoryNames=getResources().getStringArray(R.array.category);
+        listView = (ListView) findViewById(R.id.list_view_category);
+        searchView = (SearchView) findViewById(R.id.search_view_category);
+        categoryNames = getResources().getStringArray(R.array.category);
 
         arrayList.clear();
         for (int i = 0; i < categoryNames.length; i++) {
-            FoodItem foodItem = new FoodItem(categoryNames[i], pic[i]);
+            FoodItem foodItem = new FoodItem(categoryNames[i], pic[i], i);
             arrayList.add(foodItem);
         }
-        CustomAdapter adapter=new  CustomAdapter (this,categoryNames,pic, arrayList);
+        CustomAdapter adapter = new CustomAdapter(this, categoryNames, pic, arrayList);
         listView.setAdapter(adapter);
 
-         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+
+                if (TextUtils.isEmpty(newText)) {
+                    adapter.filter("");
+                    listView.clearTextFilter();
+                } else {
+                    adapter.filter(newText);
+                }
+                return true;
+            }
+        });
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position == 0) {
+                FoodItem foodItem = (FoodItem) listView.getItemAtPosition(position);
+                int foodId = foodItem.getId();
+                if (foodId == 0) {
                     Intent intent = new Intent(MainActivity.this, CategoryActivity.class);
-                    intent.putExtra("tag","fastFood");
+                    intent.putExtra("tag", "fastFood");
                     startActivity(intent);
                 }
-                if (position == 1) {
+                if (foodId == 1) {
                     Intent intent = new Intent(MainActivity.this, CategoryActivity.class);
-                    intent.putExtra("tag","rice");
+                    intent.putExtra("tag", "rice");
                     startActivity(intent);
                 }
-                if (position == 2) {
+                if (foodId == 2) {
                     Intent intent = new Intent(MainActivity.this, CategoryActivity.class);
-                    intent.putExtra("tag","curry");
+                    intent.putExtra("tag", "curry");
                     startActivity(intent);
                 }
-                if (position == 3) {
+                if (foodId == 3) {
                     Intent intent = new Intent(MainActivity.this, CategoryActivity.class);
-                    intent.putExtra("tag","deserts");
+                    intent.putExtra("tag", "deserts");
                     startActivity(intent);
                 }
-                if (position == 4) {
+                if (foodId == 4) {
                     Intent intent = new Intent(MainActivity.this, CategoryActivity.class);
-                    intent.putExtra("tag","shakes");
+                    intent.putExtra("tag", "shakes");
                     startActivity(intent);
                 }
 
@@ -198,7 +224,6 @@ public class MainActivity extends AppCompatActivity {
 //
 //            }
 //        });
-
 
 
     }

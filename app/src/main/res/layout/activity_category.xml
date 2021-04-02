@@ -8,10 +8,13 @@
     tools:context=".CategoryActivity">
 
     <SearchView
+
+        android:divider="#8BC34A"
         android:id="@+id/search_view_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:queryHint="Search Item Here">
+        android:queryHint="Search Item Here"
+        >
 
     </SearchView>
 
@@ -19,7 +22,7 @@
         android:id="@+id/list_view_items"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:listSelector="#22E5FF">
+        android:listSelector="#CDDC39">
 
 
     </ListView>

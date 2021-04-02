@@ -9,17 +9,17 @@
         <item>Rice Item</item>
         <item>Curry Item</item>
         <item>Deserts Item</item>
-        <item>Appetizer</item>
+        <item>Shakes</item>
     </string-array>
 
 
     <string-array name="FastFood">
 
         <item>Burger</item>
-        <item>pasta</item>
-        <item>>Moglai</item>
-        <item>>Chowmein</item>
-        <item>HotFries e b</item>
+        <item>Pasta</item>
+        <item>Moglai</item>
+        <item>Chowmein</item>
+        <item>HotFries</item>
         <item>BreadPizza</item>
     </string-array>
     <string-array name="RiceItem">
@@ -118,7 +118,43 @@ Place a slice of cucumber, tomato and onion ring. \n\n
 •	Step 9 \n
 Cover with the top half of the bun. \n\n
 •	Step 10 \n
-Serve at once with ketchup.
+Serve at once with ketchup.\n\n
+
+       #RECIPE 3 \n\n
+Ingredients \n\n
+
+
+¾ pound extra-lean ground chicken \n
+
+⅓ cup and 2 teaspoons Italian-seasoned bread crumbs, divided \n
+
+⅜ small onion, finely grated \n
+
+¾ egg \n
+
+1 ½ cloves garlic, minced \n
+
+salt and ground black pepper to taste \n
+
+1 teaspoons and ½ teaspoon olive oil \n\n
+
+
+DirectionsInstructions Checklist \n
+Step 1 \n
+Mix ground chicken, 1/4 cup bread crumbs, onion, egg, garlic, salt, and black pepper in a bowl. Moisten hands and shape chicken mixture, 2 tablespoons at a time, into flat, oval-shaped patties. \n\n
+
+Step 2 \n
+Spread remaining 1/4 cup bread crumbs into a shallow dish. Roll patties in bread crumbs to coat. \n\n
+
+Step 3 \n
+Heat olive oil in a large skillet over medium-high heat. \n\n
+
+Step 4 \n
+Cook patties in hot oil until deep brown in color on the bottom, 5 to 6 minutes. Turn patties and cook until other side is browned, 3 to 4 minutes more.
+
+
+
+
 </string>
 
     <string name="Pasta">
@@ -157,7 +193,37 @@ INSTRUCTIONS \n
 2.	Next, add the tomato paste, crushed tomatoes, Italian seasoning, and water. Stir to combine and dissolve the browned bits off the bottom of the skillet. Allow the sauce to come to a simmer. Once simmering, place a tilted lid on top (to allow steam to escape while blocking splatter) and turn the heat down to medium-low. Let the sauce simmer, stirring occasionally, while you cook the pasta. \n\n
 3.	Bring a large pot of water to a boil for the pasta. Once boiling, add the pasta and continue to boil until the pasta is tender (7-10 minutes, depending on the variety). Drain the pasta in a colander. \n\n
 4.	After the pasta has cooked and the sauce has simmered a while, stir the heavy cream into the pasta sauce. Add the fresh spinach and stir it into the sauce just until wilted. \n\n
-5.	Finally, add the cooked and drained pasta to the sauce and stir to combine. Serve and enjoy!
+5.	Finally, add the cooked and drained pasta to the sauce and stir to combine. Serve and enjoy!\n\n
+
+        #Recipe 3:\n\n
+        Ingredients for Pasta \n\n
+3/4 cup Penne Pasta or any Pasta \n
+1/2 teaspoon Salt \n
+4-5 cups Water \n\n
+For Veggies: \n
+1/2 teaspoon Oil \n
+1/4 cup chopped Carrot \n
+1/4 cup chopped Green Capsicum \n
+1/4 cup chopped Red Capsicum \n
+1/4 cup chopped Broccoli \n
+Salt to taste \n\n
+For White Sauce: \n
+1½ tablespoons Butter \n
+1 teaspoon finely chopped Garlic, optional \n
+1½ tablespoons Maida (all purpose flour) \n
+1½ cups Milk (250 ml) \n
+1/4 teaspoon dried Oregano, optional (or pizza seasonings) \n
+1/4 teaspoon Red Chilli Flakes \n
+A pinch of Black Pepper Powder (or crushed pepper) \n
+Salt to taste \n\n
+
+
+Directions: \n\n
+step-1 \n
+Boil raw pasta according to the instructions given on the package or follow following instructions; Take 4-5 cups water in deep sauce pan, bring it to boil over medium flame. When it start boiling, add 3/4 cup Penne pasta and 1/2 teaspoon salt.
+
+
+
 </string>
     <string name="Moglai">
     for dough: \n\n
