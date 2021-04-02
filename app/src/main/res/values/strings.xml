@@ -4,15 +4,23 @@
 
     </string-array>
 
+    <string-array name="category">
+        <item>FastFood</item>
+        <item>Rice Item</item>
+        <item>Curry Item</item>
+        <item>Deserts Item</item>
+        <item>Appetizer</item>
+    </string-array>
+
 
     <string-array name="FastFood">
 
         <item>Burger</item>
-        <item>Moglai</item>
-        <item>Bread Pizza</item>
-        <item>Pasta</item>
-        <item>Chowmein</item>
-        <item>Hot fries</item>
+        <item>pasta</item>
+        <item>>Moglai</item>
+        <item>>Chowmein</item>
+        <item>HotFries e b</item>
+        <item>BreadPizza</item>
     </string-array>
     <string-array name="RiceItem">
         <item>Plain pulaw</item>
@@ -29,12 +37,11 @@
         <item>Pudding</item>
         <item>Faluda</item>
     </string-array>
-    <string-array name="appetizer">
+    <string-array name="Shakes">
         <item>Strawbery shake</item>
         <item>Chocolate shake</item>
 
     </string-array>
-
 
 
     <string name="Burger">
